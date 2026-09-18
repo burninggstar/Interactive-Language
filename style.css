@@ -1,0 +1,101 @@
+body {
+    font-family: "Montserrat";
+    background-color:#FCF8FF;
+    color:#2A1649;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.small-text {
+    color:#2A1649;
+    background-color:#FCF8FF;
+    font-size: 20px;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    overflow: auto;
+    padding: 8px 16px;
+    border: 1px;
+        border-style: solid;
+        border-color: #2A1649;
+        border-radius: 4px;
+    margin: 32px;
+}
+
+.small-text:hover {
+    cursor: pointer;
+    background-color:deeppink;
+}
+
+.small-text:active {
+    background-color:blanchedalmond;
+}
+
+.header {
+    font-family: "Irish Grover";
+    font-size: 55px;
+    margin: 20px;
+}
+
+.nav-bar {
+    font-size: 20px;
+    text-align: left;
+}
+
+.nav-bar:active {
+    color:#FFC2DE
+}
+
+.hero-statement {
+    font-size: 55px;
+    text-align: center;
+}
+
+.button {
+    font-size: 20px;
+    text-align: center;
+    width: 16rem;
+    height: 3rem;
+    border: 1px;
+        border-style: solid;
+        border-color:#2A1649;
+        border-radius: 4px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #2A1649;
+    color:#FCF8FF;
+    text-decoration: none;
+}
+
+.button:active {
+    color:#FFC2DE;
+    text-decoration: none;
+}
+
+.sections {
+    font-size: 25px;
+}
+
+.quote {
+    font-size: 30px;
+    font-style: oblique;
+    text-align: center;
+}
+
+.attribute {
+    font-size: 20px;
+    text-align: center;
+}
+
+.delanie {
+    width: 100%;
+}
