@@ -71,7 +71,7 @@ a:hover {
 
 .button:hover {
     cursor: pointer;
-    background-color: #2A1649;
+    background-color: #2a1649;
     color:#FCF8FF;
     text-decoration: none;
 }
@@ -96,6 +96,32 @@ a:hover {
     text-align: center;
 }
 
-.delanie {
+.full-image {
     width: 100%;
+}
+
+.footer-title {
+    font-family:"Irish Grover";
+    font-size: 35px;
+    
+}
+
+.app-icons {
+    max-width: 3rem;
+}
+
+.footer-text {
+    font-size: 12px;
+}
+
+.smaller-photo {
+    max-width: 30rem;
+}
+
+.artwork-photos {
+    max-width: 45rem;
+}
+
+.footer {
+    background-color: #FFC2DE;
 }
