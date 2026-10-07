@@ -1,6 +1,6 @@
 body {
     font-family: "Montserrat";
-    background-color:#FCF8FF;
+    background-color:#f7effc;
     color:#2A1649;
 }
 
@@ -46,33 +46,55 @@ a:hover {
 
 .nav-bar {
     font-size: 20px;
-    text-align: left;
+    font-weight: 450;
 }
 
 .nav-bar:active {
     color:#FFC2DE
 }
 
+.flex-the-bar {
+    margin: 0px 30px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
 .hero-statement {
     font-size: 55px;
     text-align: center;
+    margin: 12px;
+    font-weight: 625;
+}
+
+.hero-background {
+    background: url('/assests/Delanie80.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 10rem;
 }
 
 .button {
     font-size: 20px;
     text-align: center;
-    width: 16rem;
+    width: 15rem;
     height: 3rem;
     border: 1px;
         border-style: solid;
-        border-color:#2A1649;
-        border-radius: 4px;
+        border-color:#f7effc;
+        border-radius: 15px;
+    background-color: #f7effc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .button:hover {
     cursor: pointer;
     background-color: #2a1649;
-    color:#FCF8FF;
+    color:#f7effc;
     text-decoration: none;
 }
 
@@ -81,14 +103,53 @@ a:hover {
     text-decoration: none;
 }
 
+.flex-the-button {
+    display: flex;
+    justify-content: center;
+}
+
 .sections {
     font-size: 25px;
 }
 
+.double-columns {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    padding: 7rem 15rem 7rem 15rem;
+}
+
+.one-column {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
+}
+
+@media screen and (min-width:320px) {
+    .double-columns {
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+    .full-image {
+    width: 100%;
+    opacity: 80%;
+}
+}
+
 .quote {
-    font-size: 30px;
+    font-size: 45px;
     font-style: oblique;
+    font-weight: 525;
     text-align: center;
+    margin: 12px;
+}
+
+.quote-padding {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
 }
 
 .attribute {
@@ -96,22 +157,36 @@ a:hover {
     text-align: center;
 }
 
-.full-image {
-    width: 100%;
-}
 
 .footer-title {
     font-family:"Irish Grover";
     font-size: 35px;
+    text-align: center;
     
 }
 
 .app-icons {
-    max-width: 3rem;
+    max-width: 2.5rem;
 }
 
 .footer-text {
     font-size: 12px;
+    text-align: center;
+}
+
+.flex-the-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.flex-the-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
 }
 
 .smaller-photo {
@@ -124,4 +199,9 @@ a:hover {
 
 .footer {
     background-color: #FFC2DE;
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
